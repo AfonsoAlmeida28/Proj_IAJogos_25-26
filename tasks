@@ -23,9 +23,9 @@ Atribuir ao Colega A (Foco em matemática de colisões e raycasting)
 📍 3. Abordagem B: Sistema de Waypoints (Req 3.1)
 Atribuir ao Colega B (Foco em vetores e gestão de arrays)
 
-[ ] Interface de Utilizador: Implementar a captura de cliques do rato para o utilizador desenhar os waypoints na pista, guardando-os numa lista de coordenadas (x, y).
+[DONE] Interface de Utilizador: Implementar a captura de cliques do rato para o utilizador desenhar os waypoints na pista, guardando-os numa lista de coordenadas (x, y).
 
-[ ] Cálculos Vetoriais (Inputs): Calcular a distância euclidiana e o ângulo relativo entre a frente do carro e o próximo waypoint.
+[DONE] Cálculos Vetoriais (Inputs): Calcular a distância euclidiana e o ângulo relativo entre a frente do carro e o próximo waypoint.
 
 [ ] Cálculo de Curvatura (Input Opcional): Calcular o ângulo entre o waypoint atual e o seguinte para antecipar a curva (sentido horário ou anti-horário).
 
