@@ -36,7 +36,6 @@ def draw_net(config, genome, view=False, filename=None, node_names=None, show_di
 
     for cg in genome.connections.values():
         if cg.enabled or show_disabled:
-            # --- CORRIGIDO AQUI ---
             input, output = cg.key 
             
             a = node_names.get(input, str(input))
@@ -45,10 +44,8 @@ def draw_net(config, genome, view=False, filename=None, node_names=None, show_di
             color = 'green' if cg.weight > 0 else 'red'
             width = str(0.1 + abs(cg.weight / 5.0))
             
-            # Formatar o peso com 2 casas decimais
             peso_formatado = f"{cg.weight:.2f}"
             
-            # Passar o label (peso) e o tamanho da fonte para a aresta (edge)
             dot.edge(a, b, _attributes={'style': style, 'color': color, 'penwidth': width, 'label': peso_formatado, 'fontsize': '8'})
 
     dot.render(filename, view=view)
