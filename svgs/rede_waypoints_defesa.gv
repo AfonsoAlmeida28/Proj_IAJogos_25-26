@@ -1,0 +1,13 @@
+digraph {
+	node [fontsize=9 height=0.2 shape=circle width=0.2]
+	"Distância" [fillcolor=lightgray shape=box style=filled]
+	"Ângulo" [fillcolor=lightgray shape=box style=filled]
+	Acelerar [fillcolor=lightblue style=filled]
+	Volante [fillcolor=lightblue style=filled]
+	44 [fillcolor=white style=filled]
+	"Distância" -> Volante [color=red fontsize=8 label=-5.62 penwidth=1.2235919118217398 style=solid]
+	"Ângulo" -> Acelerar [color=green fontsize=8 label=3.07 penwidth=0.7131145136543052 style=solid]
+	"Ângulo" -> Volante [color=green fontsize=8 label=2.46 penwidth=0.59194687930573 style=solid]
+	"Distância" -> 44 [color=green fontsize=8 label=0.17 penwidth=0.1331148848494072 style=solid]
+	44 -> Acelerar [color=red fontsize=8 label=-1.26 penwidth=0.3520136867871132 style=solid]
+}

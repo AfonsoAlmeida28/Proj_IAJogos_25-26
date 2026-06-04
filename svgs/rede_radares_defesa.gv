@@ -1,0 +1,15 @@
+digraph {
+	node [fontsize=9 height=0.2 shape=circle width=0.2]
+	"R_Esq (-60º)" [fillcolor=lightgray shape=box style=filled]
+	"R_Esq_C (-30º)" [fillcolor=lightgray shape=box style=filled]
+	"R_Frente (0º)" [fillcolor=lightgray shape=box style=filled]
+	"R_Dir_C (+30º)" [fillcolor=lightgray shape=box style=filled]
+	"R_Dir (+60º)" [fillcolor=lightgray shape=box style=filled]
+	Acelerar [fillcolor=lightblue style=filled]
+	Volante [fillcolor=lightblue style=filled]
+	"R_Esq (-60º)" -> Volante [color=red fontsize=8 label=-17.20 penwidth=3.5405740140946875 style=solid]
+	"R_Esq_C (-30º)" -> Volante [color=green fontsize=8 label=5.75 penwidth=1.2491820772285 style=solid]
+	"R_Dir_C (+30º)" -> Acelerar [color=green fontsize=8 label=0.32 penwidth=0.16393095214121772 style=solid]
+	"R_Dir (+60º)" -> Acelerar [color=red fontsize=8 label=-0.34 penwidth=0.16769281937123165 style=solid]
+	"R_Dir (+60º)" -> Volante [color=green fontsize=8 label=4.57 penwidth=1.0144433489774187 style=solid]
+}
